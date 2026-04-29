@@ -84,7 +84,7 @@ function App() {
     const lorScore = calculateLOR();
 
     try {
-      const res = await axios.post("http://127.0.0.1:5000/predict", {
+      const res = await axios.post("https://admission-predictor-backend-bb2b.onrender.com/predict", {
         gre: Number(form.gre),
         toefl: Number(form.toefl),
         rating: Number(form.rating),
