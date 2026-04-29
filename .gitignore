@@ -1,7 +1,18 @@
+# Python
+backend/venv/
 venv/
 __pycache__/
 *.pyc
 .env
+
+# Data & notebooks
 data/
 .ipynb_checkpoints/
+
+# Node
+frontend/node_modules/
 node_modules/
+frontend/dist/
+
+# OS / misc
+.DS_Store
